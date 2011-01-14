@@ -34,7 +34,7 @@ public class FileUploadServlet extends HttpServlet {
         FileItemFactory factory = new DiskFileItemFactory(75000, tempDir);
 
         ServletFileUpload upload = new ServletFileUpload(factory);
-        upload.setSizeMax(100000);
+        upload.setSizeMax(200000);
 
         HashMap requestParameters = new HashMap();
 

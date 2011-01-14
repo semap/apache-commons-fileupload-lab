@@ -17,7 +17,7 @@
         <dd><input name="first-name"/></dd>
         <dt>Last name</dt>
         <dd><input name="last-name"/></dd>
-        <dt>Resume (Less than 100 KB)</dt>
+        <dt>Resume (Less than 200 KB)</dt>
         <dd><input type="file" name="resume"/></dd>
         <dt>&nbsp;</dt>
         <dt><input type="submit"/></dt>
